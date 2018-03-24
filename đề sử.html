@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="đề sử.js"></script>
+</head>
+<body>
+  <div class="tab-content no-padding">
+  						<div class="chart tab-pane active" id="dethi" style="position: relative; height: 768px;">
+  							<iframe style="width: 100%; height: 768px; border: solid 1px #bbb;" src="https://hoc24.vn/docviewer/web/?file=https://hoc24.vn/docviewer/file/dethi/subject7/5a6ad7143f9bd.pdf" ></iframe>
+  						</div>
+<!-start header -->
+    <div id="header">
+        <div>
+            <span id="h">Giờ</span> :
+            <span id="m">Phút</span> :
+            <span id="s">Giây</span>
+
+        </div>
+        <input type="button" value="Bắt Đầu" onclick="batdau()" id="btnstart"/>
+        <input type="button" value="Nộp bài" onclick="stop()"  id="btnnopbai" disabled="true" />
+    </div>
+<!-end header -->
+<div id="cauhoi">
+    <h3> câu 1: </h3>
+    <ul  id="cau1">
+        <li id="c1A"><input type="radio" name="cau1" disabled="true" value="A"/>A</li>
+        <li id="c1B"><input type="radio" name="cau1" disabled="true" value="B"/>B</li>
+        <li id="c1C"><input type="radio" name="cau1" disabled="true" value="C"/>C</li>
+        <li id="c1D"><input type="radio" name="cau1" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 2: </h3>
+    <ul id="cau2" >
+        <li id="c2A"><input type="radio" name="cau2" disabled="true"value="A"/>A</li>
+        <li id="c2B"><input type="radio" name="cau2" disabled="true"value="B"/>B</li>
+        <li id="c2C"><input type="radio" name="cau2" disabled="true" value="C"/>C</li>
+        <li id="c2D"><input type="radio" name="cau2" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 3: </h3>
+    <ul id="cau3" >
+        <li id="c3A"><input type="radio" name="cau3"disabled="true" value="A"/>A</li>
+        <li id="c3B"><input type="radio" name="cau3" disabled="true" value="B"/>B</li>
+        <li id="c3C"><input type="radio" name="cau3" disabled="true" value="C"/>C</li>
+          <li id="c3D"><input type="radio" name="cau3" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 4: </h3>
+    <ul id="cau4" >
+        <li id="c4A"><input type="radio" name="cau4"disabled="true" value="A"/>A</li>
+        <li id="c4B"><input type="radio" name="cau4" disabled="true" value="B"/>B</li>
+        <li id="c4C"><input type="radio" name="cau4" disabled="true" value="C"/>C</li>
+          <li id="c4D"><input type="radio" name="cau4" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 5: </h3>
+    <ul id="cau5" >
+        <li id="c5A"><input type="radio" name="cau5"disabled="true" value="A"/>A</li>
+        <li id="c5B"><input type="radio" name="cau5" disabled="true" value="B"/>B</li>
+        <li id="c5C"><input type="radio" name="cau5" disabled="true" value="C"/>C</li>
+          <li id="c5D"><input type="radio" name="cau5" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 6: </h3>
+    <ul id="cau6" >
+        <li id="c6A"><input type="radio" name="cau6"disabled="true" value="A"/>A</li>
+        <li id="c6B"><input type="radio" name="cau6" disabled="true" value="B"/>B</li>
+        <li id="c6C"><input type="radio" name="cau6" disabled="true" value="C"/>C</li>
+          <li id="c6D"><input type="radio" name="cau6" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 7: </h3>
+    <ul id="cau7" >
+        <li id="c7A"><input type="radio" name="cau7"disabled="true" value="A"/>A</li>
+        <li id="c7B"><input type="radio" name="cau7" disabled="true" value="B"/>B</li>
+        <li id="c7C"><input type="radio" name="cau7" disabled="true" value="C"/>C</li>
+          <li id="c7D"><input type="radio" name="cau7" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 8: </h3>
+    <ul id="cau8" >
+        <li id="c8A"><input type="radio" name="cau8"disabled="true" value="A"/>A</li>
+        <li id="c8B"><input type="radio" name="cau8" disabled="true" value="B"/>B</li>
+        <li id="c8C"><input type="radio" name="cau8" disabled="true" value="C"/>C</li>
+          <li id="c8D"><input type="radio" name="cau8" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 9: </h3>
+    <ul id="cau9" >
+        <li id="c9A"><input type="radio" name="cau9"disabled="true" value="A"/>A</li>
+        <li id="c9B"><input type="radio" name="cau9" disabled="true" value="B"/>B</li>
+        <li id="c9C"><input type="radio" name="cau9" disabled="true" value="C"/>C</li>
+          <li id="c9D"><input type="radio" name="cau9" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 10: </h3>
+    <ul id="cau10" >
+        <li id="c10A"><input type="radio" name="cau10"disabled="true" value="A"/>A</li>
+        <li id="c10B"><input type="radio" name="cau10" disabled="true" value="B"/>B</li>
+        <li id="c10C"><input type="radio" name="cau10" disabled="true" value="C"/>C</li>
+          <li id="c10D"><input type="radio" name="cau10" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 11: </h3>
+    <ul id="cau11" >
+        <li id="c11A"><input type="radio" name="cau11"disabled="true" value="A"/>A</li>
+        <li id="c11B"><input type="radio" name="cau11" disabled="true" value="B"/>B</li>
+        <li id="c11C"><input type="radio" name="cau11" disabled="true" value="C"/>C</li>
+          <li id="c11D"><input type="radio" name="cau11" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 12: </h3>
+    <ul id="cau12" >
+        <li id="c12A"><input type="radio" name="cau12"disabled="true" value="A"/>A</li>
+        <li id="c12B"><input type="radio" name="cau12" disabled="true" value="B"/>B</li>
+        <li id="c12C"><input type="radio" name="cau12" disabled="true" value="C"/>C</li>
+          <li id="c12D"><input type="radio" name="cau12" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 13: </h3>
+    <ul id="cau13" >
+        <li id="c13A"><input type="radio" name="cau13"disabled="true" value="A"/>A</li>
+        <li id="c13B"><input type="radio" name="cau13" disabled="true" value="B"/>B</li>
+        <li id="c13C"><input type="radio" name="cau13" disabled="true" value="C"/>C</li>
+          <li id="c13D"><input type="radio" name="cau13" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 14: </h3>
+    <ul id="cau14" >
+        <li id="c14A"><input type="radio" name="cau14"disabled="true" value="A"/>A</li>
+        <li id="c14B"><input type="radio" name="cau14" disabled="true" value="B"/>B</li>
+        <li id="c14C"><input type="radio" name="cau14" disabled="true" value="C"/>C</li>
+          <li id="c14D"><input type="radio" name="cau14" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 15: </h3>
+    <ul id="cau15" >
+        <li id="c15A"><input type="radio" name="cau15"disabled="true" value="A"/>A</li>
+        <li id="c15B"><input type="radio" name="cau15" disabled="true" value="B"/>B</li>
+        <li id="c15C"><input type="radio" name="cau15" disabled="true" value="C"/>C</li>
+          <li id="c15D"><input type="radio" name="cau15" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 16: </h3>
+    <ul id="cau16" >
+        <li id="c16A"><input type="radio" name="cau16"disabled="true" value="A"/>A</li>
+        <li id="c16B"><input type="radio" name="cau16" disabled="true" value="B"/>B</li>
+        <li id="c16C"><input type="radio" name="cau16" disabled="true" value="C"/>C</li>
+          <li id="c16D"><input type="radio" name="cau16" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 17: </h3>
+    <ul id="cau17" >
+        <li id="c17A"><input type="radio" name="cau17"disabled="true" value="A"/>A</li>
+        <li id="c17B"><input type="radio" name="cau17" disabled="true" value="B"/>B</li>
+        <li id="c17C"><input type="radio" name="cau17" disabled="true" value="C"/>C</li>
+          <li id="c17D"><input type="radio" name="cau17" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 18: </h3>
+    <ul id="cau18" >
+        <li id="c18A"><input type="radio" name="cau18"disabled="true" value="A"/>A</li>
+        <li id="c18B"><input type="radio" name="cau18" disabled="true" value="B"/>B</li>
+        <li id="c18C"><input type="radio" name="cau18" disabled="true" value="C"/>C</li>
+          <li id="c18D"><input type="radio" name="cau18" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 19: </h3>
+    <ul id="cau19" >
+        <li id="c19A"><input type="radio" name="cau19"disabled="true" value="A"/>A</li>
+        <li id="c19B"><input type="radio" name="cau19" disabled="true" value="B"/>B</li>
+        <li id="c19C"><input type="radio" name="cau19" disabled="true" value="C"/>C</li>
+          <li id="c19D"><input type="radio" name="cau19" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 20: </h3>
+    <ul id="cau20" >
+        <li id="c20A"><input type="radio" name="cau20"disabled="true" value="A"/>A</li>
+        <li id="c20B"><input type="radio" name="cau20" disabled="true" value="B"/>B</li>
+        <li id="c20C"><input type="radio" name="cau20" disabled="true" value="C"/>C</li>
+          <li id="c20D"><input type="radio" name="cau20" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 21: </h3>
+    <ul id="cau21" >
+        <li id="c21A"><input type="radio" name="cau21"disabled="true" value="A"/>A</li>
+        <li id="c21B"><input type="radio" name="cau21" disabled="true" value="B"/>B</li>
+        <li id="c21C"><input type="radio" name="cau21" disabled="true" value="C"/>C</li>
+          <li id="c21D"><input type="radio" name="cau21" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 22: </h3>
+    <ul id="cau22" >
+        <li id="c22A"><input type="radio" name="cau22"disabled="true" value="A"/>A</li>
+        <li id="c22B"><input type="radio" name="cau22" disabled="true" value="B"/>B</li>
+        <li id="c22C"><input type="radio" name="cau22" disabled="true" value="C"/>C</li>
+          <li id="c22D"><input type="radio" name="cau22" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 23: </h3>
+    <ul id="cau23" >
+        <li id="c23A"><input type="radio" name="cau23"disabled="true" value="A"/>A</li>
+        <li id="c23B"><input type="radio" name="cau23" disabled="true" value="B"/>B</li>
+        <li id="c23C"><input type="radio" name="cau23" disabled="true" value="C"/>C</li>
+          <li id="c23D"><input type="radio" name="cau23" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 24: </h3>
+    <ul id="cau24" >
+        <li id="c24A"><input type="radio" name="cau24"disabled="true" value="A"/>A</li>
+        <li id="c24B"><input type="radio" name="cau24" disabled="true" value="B"/>B</li>
+        <li id="c24C"><input type="radio" name="cau24" disabled="true" value="C"/>C</li>
+          <li id="c24D"><input type="radio" name="cau24" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 25: </h3>
+    <ul id="cau25" >
+        <li id="c25A"><input type="radio" name="cau25"disabled="true" value="A"/>A</li>
+        <li id="c25B"><input type="radio" name="cau25" disabled="true" value="B"/>B</li>
+        <li id="c25C"><input type="radio" name="cau25" disabled="true" value="C"/>C</li>
+          <li id="c25D"><input type="radio" name="cau25" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 26: </h3>
+    <ul id="cau26" >
+        <li id="c26A"><input type="radio" name="cau26"disabled="true" value="A"/>A</li>
+        <li id="c26B"><input type="radio" name="cau26" disabled="true" value="B"/>B</li>
+        <li id="c26C"><input type="radio" name="cau26" disabled="true" value="C"/>C</li>
+          <li id="c26D"><input type="radio" name="cau26" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 27: </h3>
+    <ul id="cau27" >
+        <li id="c27A"><input type="radio" name="cau27"disabled="true" value="A"/>A</li>
+        <li id="c27B"><input type="radio" name="cau27" disabled="true" value="B"/>B</li>
+        <li id="c27C"><input type="radio" name="cau27" disabled="true" value="C"/>C</li>
+          <li id="c27D"><input type="radio" name="cau27" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 28: </h3>
+    <ul id="cau28" >
+        <li id="c28A"><input type="radio" name="cau28"disabled="true" value="A"/>A</li>
+        <li id="c28B"><input type="radio" name="cau28" disabled="true" value="B"/>B</li>
+        <li id="c28C"><input type="radio" name="cau28" disabled="true" value="C"/>C</li>
+          <li id="c28D"><input type="radio" name="cau28" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 29: </h3>
+    <ul id="cau29" >
+        <li id="c29A"><input type="radio" name="cau29"disabled="true" value="A"/>A</li>
+        <li id="c29B"><input type="radio" name="cau29" disabled="true" value="B"/>B</li>
+        <li id="c29C"><input type="radio" name="cau29" disabled="true" value="C"/>C</li>
+          <li id="c29D"><input type="radio" name="cau29" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 30: </h3>
+    <ul id="cau30" >
+        <li id="c30A"><input type="radio" name="cau30"disabled="true" value="A"/>A</li>
+        <li id="c30B"><input type="radio" name="cau30" disabled="true" value="B"/>B</li>
+        <li id="c30C"><input type="radio" name="cau30" disabled="true" value="C"/>C</li>
+          <li id="c30D"><input type="radio" name="cau30" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 31: </h3>
+    <ul id="cau31" >
+        <li id="c31A"><input type="radio" name="cau31"disabled="true" value="A"/>A</li>
+        <li id="c31B"><input type="radio" name="cau31" disabled="true" value="B"/>B</li>
+        <li id="c31C"><input type="radio" name="cau31" disabled="true" value="C"/>C</li>
+          <li id="c31D"><input type="radio" name="cau31" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 32: </h3>
+    <ul id="cau32" >
+        <li id="c32A"><input type="radio" name="cau32"disabled="true" value="A"/>A</li>
+        <li id="c32B"><input type="radio" name="cau32" disabled="true" value="B"/>B</li>
+        <li id="c32C"><input type="radio" name="cau32" disabled="true" value="C"/>C</li>
+          <li id="c32D"><input type="radio" name="cau32" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 33: </h3>
+    <ul id="cau33" >
+        <li id="c33A"><input type="radio" name="cau33"disabled="true" value="A"/>A</li>
+        <li id="c33B"><input type="radio" name="cau33" disabled="true" value="B"/>B</li>
+        <li id="c33C"><input type="radio" name="cau33" disabled="true" value="C"/>C</li>
+          <li id="c33D"><input type="radio" name="cau33" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 34: </h3>
+    <ul id="cau34" >
+        <li id="c34A"><input type="radio" name="cau34"disabled="true" value="A"/>A</li>
+        <li id="c34B"><input type="radio" name="cau34" disabled="true" value="B"/>B</li>
+        <li id="c34C"><input type="radio" name="cau34" disabled="true" value="C"/>C</li>
+          <li id="c34D"><input type="radio" name="cau34" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 35: </h3>
+    <ul id="cau35" >
+        <li id="c35A"><input type="radio" name="cau35"disabled="true" value="A"/>A</li>
+        <li id="c35B"><input type="radio" name="cau35" disabled="true" value="B"/>B</li>
+        <li id="c35C"><input type="radio" name="cau35" disabled="true" value="C"/>C</li>
+          <li id="c35D"><input type="radio" name="cau35" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 36: </h3>
+    <ul id="cau36" >
+        <li id="c36A"><input type="radio" name="cau36"disabled="true" value="A"/>A</li>
+        <li id="c36B"><input type="radio" name="cau36" disabled="true" value="B"/>B</li>
+        <li id="c36C"><input type="radio" name="cau36" disabled="true" value="C"/>C</li>
+          <li id="c36D"><input type="radio" name="cau36" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 37: </h3>
+    <ul id="cau37" >
+        <li id="c37A"><input type="radio" name="cau37"disabled="true" value="A"/>A</li>
+        <li id="c37B"><input type="radio" name="cau37" disabled="true" value="B"/>B</li>
+        <li id="c37C"><input type="radio" name="cau37" disabled="true" value="C"/>C</li>
+          <li id="c37D"><input type="radio" name="cau37" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 38: </h3>
+    <ul id="cau38" >
+        <li id="c38A"><input type="radio" name="cau38"disabled="true" value="A"/>A</li>
+        <li id="c38B"><input type="radio" name="cau38" disabled="true" value="B"/>B</li>
+        <li id="c38C"><input type="radio" name="cau38" disabled="true" value="C"/>C</li>
+          <li id="c38D"><input type="radio" name="cau38" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 39: </h3>
+    <ul id="cau39" >
+        <li id="c39A"><input type="radio" name="cau39"disabled="true" value="A"/>A</li>
+        <li id="c39B"><input type="radio" name="cau39" disabled="true" value="B"/>B</li>
+        <li id="c39C"><input type="radio" name="cau39" disabled="true" value="C"/>C</li>
+          <li id="c39D"><input type="radio" name="cau39" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div id="cauhoi">
+    <h3> câu 40: </h3>
+    <ul id="cau40" >
+        <li id="c40A"><input type="radio" name="cau40"disabled="true" value="A"/>A</li>
+        <li id="c40B"><input type="radio" name="cau40" disabled="true" value="B"/>B</li>
+        <li id="c40C"><input type="radio" name="cau40" disabled="true" value="C"/>C</li>
+          <li id="c40D"><input type="radio" name="cau40" disabled="true" value="D"/>D</li>
+    </ul>
+</div>
+<div class="" style="">
+  <span id="diem"></span>
+</div>
+
+</body>
+</html>
