@@ -1,26 +1,29 @@
 body {
-    font: 20px Montserrat, sans-serif;
+
     line-height: 1.8;
     color: Black;
-    font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
+   font-family:Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+
 }
 p {font-size: 16px;}
 .margin {
      text-align: center;
      margin-bottom: 45px;
+     color: Black;
         }
 .background-one {
-    background-color: #FA8072; /* Green */
+    background-color: #FF6A6A; /* nau */
     color: #ffffff;
 }
 .background-two {
-    background-color: #474e5d; /* Dark Blue */
+    background-color: #474e5d; /* den */
     color: #ffffff;
 }
 .background-three {
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #2f2f2f; /* den dam */
     color: #fff;
 }
 .container-fluid {
@@ -30,13 +33,17 @@ p {font-size: 16px;}
 
 .navbar  li a:hover {color:#1abc9c !important;}
          li a {   text-decoration: none;
-                  color: Black;
+                  color: white;
+                }
+.navbar              {
+
+
+                  background-color: #2f2f2f;
                 }
 .navbar-brand{
   color: Black;
   text-decoration: none;
   font-size: 30px;
-  text-align: center;
 }
 .text-content ol {
   color: white;
@@ -44,3 +51,7 @@ p {font-size: 16px;}
             ol li a {
               color: white;
             }
+.navbar-header{
+  text-align: center;
+
+}
