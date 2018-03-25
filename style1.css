@@ -1,8 +1,7 @@
 body {
 
     line-height: 1.8;
-    color: Black;
-   font-family:Verdana, Geneva, sans-serif;
+    color: #CD5C5C;font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -10,21 +9,28 @@ body {
 }
 p {font-size: 16px;}
 .margin {
-     text-align: center;
+     text-align: left;
      margin-bottom: 45px;
-     color: Black;
+     color: white;
         }
 .background-one {
-    background-color: #FF6A6A; /* nau */
-    color: #ffffff;
+
+    background-image:url("2x4xbs.jpg" );
+    color: Black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+.background-one  li a:hover {color:#1abc9c !important;}
 .background-two {
-    background-color: #474e5d; /* den */
-    color: #ffffff;
+  background-color: #828282;
+  text-align: center;
+  color: white;
+
 }
 .background-three {
-    background-color: #2f2f2f; /* den dam */
-    color: #fff;
+  background-color: white;
 }
 .container-fluid {
     padding-top: 70px;
@@ -33,25 +39,30 @@ p {font-size: 16px;}
 
 .navbar  li a:hover {color:#1abc9c !important;}
          li a {   text-decoration: none;
-                  color: white;
+                  color: Black;
+
                 }
-.navbar              {
 
 
-                  background-color: #2f2f2f;
-                }
+
 .navbar-brand{
   color: Black;
   text-decoration: none;
   font-size: 30px;
 }
-.text-content ol {
-  color: white;
-}
-            ol li a {
-              color: white;
-            }
+
 .navbar-header{
-  text-align: center;
+  text-align: left;
+}
+.navbar ul {
+ width: 100%;
+ height: 40px;
+ text-align: right ;
+}
+.navbar ul li{
+ display: inline-table;
+ padding:0px 15px;
+ line-height: 40px
+transition:all 1s 0s linear;
 
 }
