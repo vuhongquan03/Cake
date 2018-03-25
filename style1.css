@@ -2,6 +2,9 @@ body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: Black;
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
 }
 p {font-size: 16px;}
 .margin {
@@ -35,6 +38,9 @@ p {font-size: 16px;}
   font-size: 30px;
   text-align: center;
 }
-.text-content{
-    text-decoration: none;
+.text-content ol {
+  color: white;
 }
+            ol li a {
+              color: white;
+            }
