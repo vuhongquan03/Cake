@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script >
+  function slowloginNoe(){
+    var u=/[a-z A-Z 0-9.]{8,25}/;
+    var Username=document.getElementById("Username");
+    var MistakeU=document.getElementById("ErrorUser");
+
+    if (User==u){
+      MistakeU.textcontent="";
+
+    }
+    else {
+      MistakeU.textcontent="error!";
+  }
+}
+  </script>
+
+  <style>
+table {
+   	height: 200px;
+    width: 1500px;
+    border: 2 solid white;
+    padding: 5;
+    align: center;
+    background-color: LightGray ;
+
+
+
+}
+th, td {
+    padding: 15px;
+
+}
+</style>
+</head>
+<body>
+  <form action="#" method="post" name="dangnhap">
+<table>
+  <tr align="left">
+  <th  colspan="2"> Sign Up </th>
+</tr>
+<tr>
+  <td> Username </td>
+  <td> <input type="text" name="ten dang nhap">
+  </tr>
+  <tr>
+    <td> Password </td>
+    <td> <input type="password" name="mat khau"> </td>
+		<td> Email </td>
+    <td> <input type="password" name="email"> </td>
+		<td> Giới tính </td>
+    <td> <input type="password" name="giới tính"> </td>
+
+
+  </tr>
+<tr>
+  <td align="center" colspan="2">
+     <input type="submit" value="LOG IN"></td>
+		
+</tr>
+</table>
+</form>
+</body>
+</html>
