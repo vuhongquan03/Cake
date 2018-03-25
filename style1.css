@@ -1,0 +1,40 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: Black;
+}
+p {font-size: 16px;}
+.margin {
+     text-align: center;
+     margin-bottom: 45px;
+        }
+.background-one {
+    background-color: #FA8072; /* Green */
+    color: #ffffff;
+}
+.background-two {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.background-three {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar  li a:hover {color:#1abc9c !important;}
+         li a {   text-decoration: none;
+                  color: Black;
+                }
+.navbar-brand{
+  color: Black;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+}
+.text-content{
+    text-decoration: none;
+}
